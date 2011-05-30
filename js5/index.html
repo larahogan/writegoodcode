@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Javascript Test</title>
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8" />
+<meta name="description" content="Write stellar HTML and CSS" />
+</head>
+
+<body>
+
+<h1>Write good code!</h1>
+<ul id="nav">
+	<li><a href="#what">What</a></li>
+	<li><a href="#why">Why</a></li>
+	<li><a href="#how">How</a></li>
+</ul>
+
+<div class="article">
+
+	<h2 id="what" class="content-header">What is good code?</h2>
+	<div id="what-content" class="content-item">
+		<p>Writing good code means writing code that is efficient, semantic, and easily edited later. Good code will be able to be read and easily modified by other developers. Good code will be easy for browsers to understand and show to a user. Good code will even make it easy for you to repurpose your code on other areas of your site.</p>
+	</div>	
+
+	<h2 id="why" class="content-header">Why write good code?</h2>
+	<div id="why-content" class="content-item">
+		<p>Good code will:<img class="screenshot" src="../efficient-html.png" alt="example of efficient HTML" width="165" height="120" /></p>
+		<ul>
+			<li>be read and easily modified by others who work on it</li>
+			<li>be easy for browsers to understand</li>
+			<li>shorten page download time</li>
+			<li>be easy to reuse or edit later</li>
+		</ul>
+		<p>Lovers of good code know that they will have faster sites and happy visitors. Editors of good code know they won't find any hard-to-understand bits of code. Creators of good code know that they'll be able to finish a project more quickly and have it perform successfully across browsers.</p>
+	</div>
+	
+	<h2 id="how" class="content-header">How can I write good code?</h2>
+	
+	<div id="how-content" class="content-item">
+		<h3>Write efficient HTML</h3>
+		<p><img src="../inefficient-html.png" alt="Example of inefficient html" class="screenshot" width="249" height="59" />A common disease that front-end developers come down with is "divitis". Divitis happens when a coder adds element after parent element to wrap their content, whether to help them target it with CSS or just because it may seem how to best translate a design to HTML. Good code means no extraneous or unnecessary elements (divs, spans, etc.) on your pages.</p>
+		<p>Efficient HTML will also be easily read by your average user, Google, and screen readers. Unnecessary code will just screw things up - it adds extra things for the browser to render, it may be harder to target with weight in CSS (especially if you use inefficient selectors in your CSS), and it will be very hard to clean out later when you want to restyle your page.</p>
+	
+		<h3>Write semantic CSS</h3>
+		<p>Say you have a right-floating sidebar. Giving the sidebar an id of "right" is not semantic - it doesn't represent what the content is, it only represents the style that you're planning on giving it. What happens when you want to float it to the left in a few months? Will you need to rename it across your pages, and update your styles?</p>
+		<p><img src="../semantic-css.png" alt="Example of not semantic CSS" class="screenshot" width="190" height="59" />Writing semantically means using the best element for the kind of content you're coding. If you have a list of navigation links, use an unordered list tag and name the element "nav" or "menu". If you want to make an author's blockquote blue, don't give it a class of "blue"; "author" or some similar content-based name will be much more semantic.</p>
+		<p>Semantic CSS allows you to repurpose the same id and class names throughout your pages and will help you keep your stylesheets succinct, easy to scan and easy to edit later. This goes hand in hand with writing efficient HTML, and you should plan your pages before writing either.</p>
+		
+		<h3>Plan your pages</h3>
+		<p>Planning your page structure and the information architecture of the entire site will help you create good code from the beginning. You can envision how you'll name elements, what parts of the code should be repurposed on each page, and which technologies you'll use (images, CSS3, jQuery, etc.).</p>
+		<p><strong>Optimizing images</strong> is a big part of the page planning process. You could have ten images that are individually downloaded on a page which could be transformed into a one-download sprite. Planning your pages means foreseeing when you'll need to use transparency, when you can use a 1px-wide repeating background, and when you can replace images with CSS.</p>
+		<p><strong>Newer techniques</strong> like CSS3, asynchronous javascript, using a CDN, etc. can all be incorporated into the planning stages, which will make your development much quicker.</p>
+	</div>
+
+	<h2>A whole lot of design!</h2>
+	
+	<div class="comparison-chart three-col" id="feature-chart">
+		<div>
+			<div class="chart-top">
+				<h2>First Tier</h2>
+				<p class="pricing">$10.00/yr</p>
+				<p><a class="cta" href="#">Sign Up</a></p>
+			</div>
+			<ul>
+				<li class="odd">Sed auctor neque</li>
+				<li>eu tellus rhoncus ut eleifend</li>
+				<li class="odd">nibh porttitor</li>
+				<li>Ut in nulla enim</li>
+				<li class="odd">Phasellus molestie magna</li>
+				<li>non est bibendum non</li>
+				<li class="odd">venenatis nisl tempor</li>
+			</ul>
+			<p><a class="cta" href="#">Sign Up</a></p>
+		</div>
+		
+		<div class="highlight">
+			<div class="chart-top">
+				<h2>Second Tier</h2>
+				<p class="pricing">$20.00/yr</p>
+				<p><a class="cta" href="#">Sign Up</a></p>
+			</div>
+			<ul>
+				<li class="odd">Suspendisse dictum</li>			
+				<li>feugiat nisl ut dapibus</li>
+				<li class="odd">Mauris iaculis porttitor</li>
+				<li>posuere</li>
+				<li class="odd">Praesent id metus</li>
+				<li>massa, ut blandit odio</li>
+				<li class="odd">Proin quis tortor orci</li>
+			</ul>
+			<p><a class="cta" href="#">Sign Up</a></p>
+		</div>
+		
+		<div>
+			<div class="chart-top">
+				<h2>Third Tier</h2>
+				<p class="pricing">$30.00/yr</p>
+				<p><a class="cta" href="#">Sign Up</a></p>
+			</div>
+			<ul>
+				<li class="odd">Etiam at risus</li>
+				<li>et justo dignissim congue</li>
+				<li class="odd">Donec congue lacinia dui</li>
+				<li>a porttitor</li>
+				<li class="odd">lectus condimentum laoreet</li>
+				<li>Nunc eu ullamcorper orci</li>
+				<li class="odd">Quisque eget odio</li>
+			</ul>
+			<p><a class="cta" href="#">Sign Up</a></p>
+		</div>
+		
+		<p class="also-offer">These fake charts have been added so we can have more things to test!</p>
+	</div><!-- end chart -->
+
+	<div class="comparison-chart four-col">
+	
+		<div class="variables">
+			<h2>Features</h2>
+			<ul>
+				<li class="odd">Sed auctor neque</li>
+				<li>eu tellus rhoncus ut eleifend</li>
+				<li class="odd">nibh porttitor</li>
+				<li>Ut in nulla enim</li>
+				<li class="odd">Phasellus molestie magna</li>
+				<li>non est bibendum non</li>
+				<li class="odd">venenatis nisl tempor</li>
+			</ul>
+		</div>
+	
+		<div>
+			<div class="chart-top">
+				<h2>First Tier</h2>
+				<p class="pricing">$10.00/yr</p>
+				<p><a class="cta" href="#">Sign Up</a></p>
+			</div>
+			<ul>
+				<li class="odd">Sed auctor neque</li>
+				<li>eu tellus rhoncus ut eleifend</li>
+				<li class="odd">nibh porttitor</li>
+				<li>Ut in nulla enim</li>
+				<li class="odd">Phasellus molestie magna</li>
+				<li>non est bibendum non</li>
+				<li class="odd">venenatis nisl tempor</li>
+			</ul>
+			<p><a class="cta" href="#">Sign Up</a></p>
+		</div>
+		
+		<div>
+			<div class="chart-top">
+				<h2>Second Tier</h2>
+				<p class="pricing">$20.00/yr</p>
+				<p><a class="cta" href="#">Sign Up</a></p>
+			</div>
+			<ul>
+				<li class="odd">Suspendisse dictum</li>			
+				<li>feugiat nisl ut dapibus</li>
+				<li class="odd">Mauris iaculis porttitor</li>
+				<li>posuere</li>
+				<li class="odd">Praesent id metus</li>
+				<li>massa, ut blandit odio</li>
+				<li class="odd">Proin quis tortor orci</li>
+			</ul>
+			<p><a class="cta" href="#">Sign Up</a></p>
+		</div>
+		
+		<div class="highlight">
+			<div class="chart-top">
+				<h2>Third Tier</h2>
+				<p class="pricing">$30.00/yr
+				<br /><span class="comment">STARTING PRICE</span></p>
+				<p><a class="cta" href="#">Sign Up</a></p>
+			</div>
+			<ul>
+				<li class="odd">Etiam at risus</li>
+				<li>et justo dignissim congue</li>
+				<li class="odd">Donec congue lacinia dui</li>
+				<li>a porttitor</li>
+				<li class="odd">lectus condimentum laoreet</li>
+				<li>Nunc eu ullamcorper orci</li>
+				<li class="odd">Quisque eget odio</li>
+			</ul>
+			<p><a class="cta" href="#">Sign Up</a></p>
+		</div>
+	
+	</div><!-- end chart -->
+</div>
+
+<div id="footer">
+	<ul>
+		<li class="twitter"><a href="http://twitter.com/dyninc">Twitter</a></li>
+		<li class="fb"><a href="http://www.facebook.com/Dyn">Facebook</a></li>
+		<li class="youtube"><a href="http://www.youtube.com/dyninc">YouTube</a></li>
+		<li class="linkedin"><a href="http://www.linkedin.com/company/dynamic-network-services-inc.">LinkedIn</a></li>
+		<li class="dyn"><a href="http://dyn.com/">dyn.com</a></li>
+	</ul>
+	<p>&copy; 2011 Dynamic Network Services Inc.</p>
+</div>
+<script type="text/javascript" src="jquery.local-combined.min.js"></script>
+</body>
+</html>

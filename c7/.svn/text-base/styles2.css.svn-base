@@ -1,0 +1,19 @@
+html,body,div,h1,h2,h3,p,a,img,strong,ul,li{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+body{font:15px/150% Arial, Helvetica, sans-serif;background:#ccc url(star.jpg) no-repeat center top;color:#333}
+ul{list-style:none}
+.article ul{list-style-type:disc;margin:1em 0 1em 2em}
+p{margin:1em 0}
+h2,h3{font-weight:bold;margin:1.5em 0 .5em}
+h2{font-size:1.5em}
+h3{font-size:1.25em}
+
+h1,#nav,#footer,.article{width:800px;margin:0 auto;overflow:hidden}
+h1,.article{padding:1em 20px;-moz-box-shadow: 0 0 8px #888;-webkit-box-shadow: 0 0 8px #888;box-shadow: 0 0 8px #888}
+h1{background:#fff url(dyn.jpg) 700px center no-repeat;font-size:2em;font-weight:bold}
+.article{background:#fff;padding-top:0}
+#footer{text-align:center;margin-top:1em}
+
+#nav{width:300px}
+#nav li{float:left;width:100px;line-height:40px;text-align:center}
+#nav a{display:block;width:100px;height:40px;color:#fff925;text-decoration:none;font-size:1.25em;font-weight:bold;text-shadow: 0 1px 1px #555;background:#666;background:-moz-linear-gradient(top,#666,#888);background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#666),color-stop(100%,#888));filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666',endColorstr='#888888',GradientType=0);background:-o-linear-gradient(top,#666 0%,#888 100%)}
+#nav a:hover{text-shadow: 1px 1px 2px #444}

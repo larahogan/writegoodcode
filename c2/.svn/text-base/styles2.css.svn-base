@@ -1,0 +1,14 @@
+#footer ul,#footer p{width:50%;float:left;font-size:.93em;height:50px}
+#footer li{width:24px;float:left;margin-right:5px}
+#footer a{color:#333;text-decoration:none}
+#footer a:hover{color:#06c}
+.twitter a,.fb a,.youtube a,.linkedin a{width:24px;height:24px;display:block;text-indent:-9999px;background:url(social.png) no-repeat}
+.fb a{background-position:-30px 0}
+.youtube a{background-position:-60px 0}
+.linkedin a{background-position:-90px 0}
+.twitter a:hover{background-position:0 -25px}
+.fb a:hover{background-position:-30px -25px}
+.youtube a:hover{background-position:-60px -25px}
+.linkedin a:hover{background-position:-90px -25px}
+.screenshot{float:right;margin:0 0 .5em .5em;border:2px #ccc solid}
+#footer p{float:right;margin:0;text-align:right}

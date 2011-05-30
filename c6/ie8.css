@@ -1,0 +1,18 @@
+#nav{width:330px}
+#nav li{width:110px}
+#nav a{width:110px}
+h2,h3{margin:25px 0 10px}
+h2{font-size:25px}
+h3{font-size:20px}
+#footer ul,#footer p{font-size:15px}
+#nav a:hover{color:#000}
+h1,.article{border:1px #bbb solid}
+.article{zoom:1}
+.comparison-chart{text-align:left}
+.comparison-chart div{float:right;border:1px #ddd solid;background-color:#ddd}
+.three-col div{width:32%}
+.four-col div{width:24%}
+.two-col{width:769px}
+.two-col div{width:379px}
+.four-col .variables,.three-col .variables{width:23%;margin-top:80px}
+.three-col .variables{width:31%}
