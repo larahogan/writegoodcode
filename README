@@ -1,0 +1,9 @@
+Created by Lara Swanson at Dyn Inc
+http://www.dyn.com
+@laraswanson
+
+Initial test results: http://www.writegood.code.com
+
+Writing code that is efficient, semantic, and easily edited later makes sense for a lot of reasons. Your code will be able to be read and easily modified by other developers. It will be easy for browsers to understand and show to a user. It will even make it easy for you to repurpose your code on other areas of your site.
+
+There are some developers, however, that may need more convincing - or perhaps there are non-developers that want you to just code fast and ignore good coding methods just to get the job done. This experiment's goal was to demonstrate the business value of coding well. Page speed is directly proportional to revenue, and coding well greatly impacts your page speed.
